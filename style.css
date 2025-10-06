@@ -1,0 +1,14 @@
+.html {
+    font-size: 26px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+    text-align: center;
+}
+body {
+    background-color: #10091a;
+    color: whitesmoke
+}
+img {
+    height: auto;
+    width: 600px;
+}

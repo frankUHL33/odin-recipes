@@ -1,14 +1,61 @@
-.html {
-    font-size: 26px;
+* {
+    font-size: 16px;
     font-family: "Times New Roman", Times, serif;
     font-weight: 400;
-    text-align: center;
+}
+:hover {
+    color: beige;
+}
+a {
+    color: rgb(160, 170, 170);
 }
 body {
     background-color: #10091a;
     color: whitesmoke
 }
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(159, 167, 196);
+    margin-top: 30px;
+}
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(159, 167, 196);
+    margin-top: 30px;
+}
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(159, 167, 196);
+    margin-top: 30px;
+}
 img {
     height: auto;
     width: 600px;
+}
+div.recipe-link {
+    box-sizing: flex;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.what-do {
+    text-align: left;
+    margin-left: 15px;
+}
+.what-need {
+    text-align: left;
+    margin-left: 15px;
+}
+.description {
+    margin-left: 25px;
+}
+button {
+    border: 1px;
+    border-color: aliceblue;
+    padding: 10px;
+    align-self: center;
+    margin: 20px auto;
 }
